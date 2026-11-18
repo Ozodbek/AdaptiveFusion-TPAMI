@@ -1,0 +1,38 @@
+\begin{table}[!t]
+\caption{Realized Distribution of the Number of Observed Views}
+\label{tab:kdist}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llccccccc}
+\toprule
+Dataset & Cond. & $K{=}1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $2{\le}K{<}V$ \\
+\midrule
+MFeat & M30 & 1.2 & 6.0 & 18.7 & 31.2 & 30.9 & 12.0 & \textbf{86.8} \\
+ & M50 & 10.7 & 25.0 & 31.2 & 23.2 & 8.3 & 1.6 & \textbf{87.7} \\
+ & M70 & 42.5 & 32.6 & 18.4 & 5.4 & 1.0 & 0.1 & \textbf{57.4} \\
+\addlinespace[2pt]
+Caltech101-20 & M30 & 0.7 & 6.2 & 18.1 & 32.3 & 29.6 & 13.0 & \textbf{86.3} \\
+ & M50 & 11.0 & 24.4 & 32.1 & 22.1 & 8.9 & 1.6 & \textbf{87.5} \\
+ & M70 & 41.5 & 33.7 & 18.4 & 5.3 & 1.1 & 0.1 & \textbf{58.4} \\
+\addlinespace[2pt]
+Scene15 & M30 & 21.4 & 44.1 & 34.4 & -- & -- & -- & \textbf{44.1} \\
+ & M50 & 50.7 & 36.9 & 12.3 & -- & -- & -- & \textbf{36.9} \\
+ & M70 & 78.8 & 18.8 & 2.4 & -- & -- & -- & \textbf{18.8} \\
+\addlinespace[2pt]
+BDGP & M30 & 21.3 & 44.3 & 34.5 & -- & -- & -- & \textbf{44.3} \\
+ & M50 & 50.7 & 36.9 & 12.4 & -- & -- & -- & \textbf{36.9} \\
+ & M70 & 79.2 & 18.5 & 2.3 & -- & -- & -- & \textbf{18.5} \\
+\addlinespace[2pt]
+LandUse-21 & M30 & 21.1 & 44.7 & 34.2 & -- & -- & -- & \textbf{44.7} \\
+ & M50 & 50.7 & 36.9 & 12.4 & -- & -- & -- & \textbf{36.9} \\
+ & M70 & 79.1 & 18.6 & 2.3 & -- & -- & -- & \textbf{18.6} \\
+\addlinespace[2pt]
+Reuters-1200 & M30 & 3.1 & 13.4 & 30.1 & 36.9 & 16.5 & -- & \textbf{80.4} \\
+ & M50 & 19.5 & 31.4 & 30.4 & 15.7 & 3.1 & -- & \textbf{77.5} \\
+ & M70 & 53.9 & 30.0 & 13.3 & 2.6 & 0.2 & -- & \textbf{45.9} \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Realized distribution of the observed-view count $K_i$ on the test split (\% of samples, mean over ten seeds). The last column is the share of samples with $2\le K_i\le V-1$, the only regime in which AdaptiveFusion and fixed reliability weighting differ.}
+\end{table}

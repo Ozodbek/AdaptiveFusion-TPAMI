@@ -1,0 +1,11 @@
+{
+ "dataset": "LandUse21",
+ "AdaptiveFusion_params": 26613,
+ "BML_full_params": 6944066,
+ "BML_small_params": 27054,
+ "BML_small_config": {
+  "width": 39,
+  "feat": 39,
+  "route": 39
+ }
+}

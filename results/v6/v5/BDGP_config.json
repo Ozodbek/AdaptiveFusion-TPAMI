@@ -1,0 +1,11 @@
+{
+ "dataset": "BDGP",
+ "AdaptiveFusion_params": 182405,
+ "BML_full_params": 8608018,
+ "BML_small_params": 181833,
+ "BML_small_config": {
+  "width": 69,
+  "feat": 69,
+  "route": 69
+ }
+}

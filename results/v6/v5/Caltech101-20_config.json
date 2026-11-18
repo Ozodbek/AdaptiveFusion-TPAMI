@@ -1,0 +1,11 @@
+{
+ "dataset": "Caltech101-20",
+ "AdaptiveFusion_params": 390836,
+ "BML_full_params": 17500030,
+ "BML_small_params": 388320,
+ "BML_small_config": {
+  "width": 69,
+  "feat": 69,
+  "route": 69
+ }
+}

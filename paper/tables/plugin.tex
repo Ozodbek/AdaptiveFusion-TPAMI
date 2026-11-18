@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\caption{The Availability Controller as a Plug-In for BML}
+\label{tab:plugin}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{Protocol A: $\Delta$ (sig.\ W/L)} & \multicolumn{2}{c}{Other read-outs: $\Delta$} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Dataset & Trained & Test-time & Prot.\ B & Own head \\
+\midrule
+MFeat & $+1.32$\,(2/0) & $+0.88$\,(2/0) & $+0.18$ & $+0.07$ \\
+Caltech101-20 & $+1.46$\,(0/0) & $+1.14$\,(2/0) & $+0.20$ & $-0.02$ \\
+Scene15 & $+1.52$\,(5/0) & $+1.30$\,(7/0) & $+0.20$ & $+0.00$ \\
+BDGP & $+0.45$\,(0/0) & $+0.08$\,(0/0) & $-0.10$ & $-0.21$ \\
+LandUse-21 & $+0.84$\,(2/0) & $+0.74$\,(5/0) & $-0.18$ & $+0.19$ \\
+Reuters-1200 & $+1.56$\,(1/0) & $+0.42$\,(0/0) & $+0.38$ & $+0.41$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize The availability controller as a plug-in for BML (full width). $\Delta$: mean accuracy difference (pp) to BML over the seven scarcity conditions, with the number of Holm-significant wins/losses. ``Trained'': BML trained and tested with $w_i^{(v)}=m_i^{(v)}[(1-\beta_i)+\beta_iR_i^{(v)}]$; ``test-time'': original BML with the controller applied only at inference. Right: the trained variant under Protocol~B and with BML's own output layer.}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\caption{Corruption-Detection AUROC of Reliability Scores}
+\label{tab:auroc}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{Noise50} & \multicolumn{2}{c}{Conflict50} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Dataset & Resid. & Disagr. & Resid. & Disagr. \\
+\midrule
+MFeat & 0.961 & 0.817 & 0.499 & 0.950 \\
+Caltech101-20 & 0.990 & 0.679 & 0.506 & 0.913 \\
+Scene15 & 0.990 & 0.745 & 0.501 & 0.762 \\
+BDGP & 0.959 & 0.635 & 0.639 & 0.650 \\
+LandUse-21 & 0.987 & 0.695 & 0.508 & 0.716 \\
+Reuters-1200 & 0.936 & 0.790 & 0.505 & 0.934 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Corruption-detection AUROC of the residual score used by AdaptiveFusion and of cross-view disagreement (diagnostic only), computed from the trained models over all observed (sample, view) pairs; mean over ten seeds.}
+\end{table}

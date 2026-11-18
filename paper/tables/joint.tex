@@ -1,0 +1,70 @@
+\begin{table}[!t]
+\caption{Accuracy (\%) under Joint Missingness and Corruption}
+\label{tab:joint}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llcccc}
+\toprule
+& & \multicolumn{2}{c}{+Noise50} & \multicolumn{2}{c}{+Conflict50} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Dataset & Method & M50 & M70 & M50 & M70 \\
+\midrule
+\multirow{7}{*}{MFeat} & Concat-SVM & 67.78 & 62.77 & 77.40 & 65.77 \\
+ & MAXVAR-GCCA & 79.43 & 77.57 & 84.98 & 79.85 \\
+ & DIMvLN$^\dagger$ & 90.92 & 87.72 & 84.17 & 80.23 \\
+ & DCCA-style & 93.43 & 87.90 & 88.08 & \textbf{82.05} \\
+ & \textbf{AdaptiveFusion} & \textbf{93.95} & \textbf{89.08} & \textbf{88.25} & 81.75 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 90.85 & 81.32 & 85.82 & 74.07 \\
+ & BML$^\dagger$ & 94.47 & 88.88 & 88.78 & 80.87 \\
+\midrule
+\multirow{7}{*}{Caltech101-20} & Concat-SVM & 51.67 & 44.90 & 57.12 & 43.03 \\
+ & MAXVAR-GCCA & 58.08 & 55.20 & 63.59 & 55.51 \\
+ & DIMvLN$^\dagger$ & 56.46 & 54.14 & 54.34 & 51.36 \\
+ & DCCA-style & \textbf{75.71} & \textbf{67.63} & \textbf{69.80} & \textbf{59.60} \\
+ & \textbf{AdaptiveFusion} & 74.44 & 64.24 & 66.87 & 57.32 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 70.05 & 57.22 & 64.09 & 48.33 \\
+ & BML$^\dagger$ & 74.34 & 62.58 & 69.39 & 56.06 \\
+\midrule
+\multirow{7}{*}{Scene15} & Concat-SVM & 28.71 & 27.36 & 33.89 & 28.89 \\
+ & MAXVAR-GCCA & 45.24 & 46.92 & 48.86 & 48.07 \\
+ & DIMvLN$^\dagger$ & 51.60 & \textbf{53.05} & \textbf{54.16} & \textbf{54.05} \\
+ & DCCA-style & \textbf{52.96} & 52.51 & 53.71 & 52.72 \\
+ & \textbf{AdaptiveFusion} & 51.45 & 49.89 & 51.52 & 49.84 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 42.71 & 37.15 & 41.54 & 36.03 \\
+ & BML$^\dagger$ & 60.55 & 59.54 & 59.78 & 59.58 \\
+\midrule
+\multirow{7}{*}{BDGP} & Concat-SVM & 59.76 & 53.19 & 55.04 & 51.24 \\
+ & MAXVAR-GCCA & 61.19 & 56.17 & 57.43 & 54.61 \\
+ & DIMvLN$^\dagger$ & 60.83 & 55.97 & 57.45 & 54.09 \\
+ & DCCA-style & \textbf{65.91} & \textbf{58.92} & \textbf{60.36} & \textbf{56.95} \\
+ & \textbf{AdaptiveFusion} & 65.00 & 58.13 & 58.91 & 55.63 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 64.97 & 58.64 & 60.15 & 56.65 \\
+ & BML$^\dagger$ & 65.48 & 59.07 & 60.52 & 56.91 \\
+\midrule
+\multirow{7}{*}{LandUse-21} & Concat-SVM & 19.22 & 17.48 & 22.33 & 18.63 \\
+ & MAXVAR-GCCA & 24.38 & 24.92 & 26.76 & 26.08 \\
+ & DIMvLN$^\dagger$ & \textbf{44.67} & \textbf{46.10} & \textbf{46.54} & \textbf{46.25} \\
+ & DCCA-style & 41.02 & 39.62 & 41.97 & 38.68 \\
+ & \textbf{AdaptiveFusion} & 37.92 & 35.87 & 38.40 & 33.51 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 23.54 & 18.11 & 24.25 & 18.02 \\
+ & BML$^\dagger$ & 56.90 & 55.97 & 56.79 & 55.83 \\
+\midrule
+\multirow{7}{*}{Reuters-1200} & Concat-SVM & 38.17 & 32.31 & 37.44 & 30.72 \\
+ & MAXVAR-GCCA & 62.06 & 62.39 & 59.36 & 60.25 \\
+ & DIMvLN$^\dagger$ & 63.06 & 61.56 & 59.33 & 58.97 \\
+ & DCCA-style & \textbf{71.75} & \textbf{70.47} & \textbf{67.94} & \textbf{67.94} \\
+ & \textbf{AdaptiveFusion} & 71.47 & 70.28 & 67.25 & 67.06 \\
+\cmidrule(lr){2-6}
+ & BML-CM$^\dagger$ & 72.39 & 69.81 & 68.61 & 67.14 \\
+ & BML$^\dagger$ & 70.69 & 66.39 & 66.50 & 63.58 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Mean accuracy (\%) over ten seeds under joint missingness and corruption, Protocol~A. Half of the samples that keep at least two observed views have one observed view corrupted. Bold: best feature-level method. Standard deviations are released with the per-seed results.}
+\end{table}

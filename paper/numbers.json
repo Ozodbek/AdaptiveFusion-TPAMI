@@ -1,0 +1,638 @@
+{
+ "kmid_MFeat_Missing30": 86.79999999999998,
+ "kmid_MFeat_Missing50": 87.69999999999997,
+ "kmid_MFeat_Missing70": 57.41666666666666,
+ "kmid_Caltech101-20_Missing30": 86.26262626262624,
+ "kmid_Caltech101-20_Missing50": 87.47474747474746,
+ "kmid_Caltech101-20_Missing70": 58.43434343434344,
+ "kmid_Scene15_Missing30": 44.123328380386326,
+ "kmid_Scene15_Missing50": 36.93164933135215,
+ "kmid_Scene15_Missing70": 18.826151560178303,
+ "kmid_BDGP_Missing30": 44.266666666666666,
+ "kmid_BDGP_Missing50": 36.879999999999995,
+ "kmid_BDGP_Missing70": 18.493333333333332,
+ "kmid_LandUse21_Missing30": 44.65079365079365,
+ "kmid_LandUse21_Missing50": 36.93650793650794,
+ "kmid_LandUse21_Missing70": 18.571428571428566,
+ "kmid_Reuters1200_Missing30": 80.41666666666667,
+ "kmid_Reuters1200_Missing50": 77.47222222222221,
+ "kmid_Reuters1200_Missing70": 45.91666666666665,
+ "rank_A_Clean_Concat-SVM": 3.5,
+ "rank_A_Clean_MAXVAR-GCCA": 4.5,
+ "rank_A_Clean_DIMvLN-unified": 3.5,
+ "rank_A_Clean_DCCA-style": 1.5,
+ "rank_A_Clean_AdaptiveFusion": 2.0,
+ "rank_A_Missing_Concat-SVM": 4.888888888888889,
+ "rank_A_Missing_MAXVAR-GCCA": 3.6666666666666665,
+ "rank_A_Missing_DIMvLN-unified": 2.9444444444444446,
+ "rank_A_Missing_DCCA-style": 1.4444444444444444,
+ "rank_A_Missing_AdaptiveFusion": 2.0555555555555554,
+ "rank_A_Corrupted_Concat-SVM": 3.9791666666666665,
+ "rank_A_Corrupted_MAXVAR-GCCA": 4.166666666666667,
+ "rank_A_Corrupted_DIMvLN-unified": 3.6875,
+ "rank_A_Corrupted_DCCA-style": 1.4166666666666667,
+ "rank_A_Corrupted_AdaptiveFusion": 1.75,
+ "rank_A_Joint_Concat-SVM": 4.958333333333333,
+ "rank_A_Joint_MAXVAR-GCCA": 3.5416666666666665,
+ "rank_A_Joint_DIMvLN-unified": 2.875,
+ "rank_A_Joint_DCCA-style": 1.4166666666666667,
+ "rank_A_Joint_AdaptiveFusion": 2.2083333333333335,
+ "first_A_Concat-SVM": 0,
+ "first_A_MAXVAR-GCCA": 0,
+ "first_A_DIMvLN-unified": 12,
+ "first_A_DCCA-style": 42,
+ "first_A_AdaptiveFusion": 18,
+ "rank_B_Clean_Concat-SVM": 3.5,
+ "rank_B_Clean_MAXVAR-GCCA": 4.5,
+ "rank_B_Clean_DIMvLN-unified": 3.5,
+ "rank_B_Clean_DCCA-style": 1.5,
+ "rank_B_Clean_AdaptiveFusion": 2.0,
+ "rank_B_Missing_Concat-SVM": 4.5,
+ "rank_B_Missing_MAXVAR-GCCA": 3.7222222222222223,
+ "rank_B_Missing_DIMvLN-unified": 3.7777777777777777,
+ "rank_B_Missing_DCCA-style": 1.2222222222222223,
+ "rank_B_Missing_AdaptiveFusion": 1.7777777777777777,
+ "rank_B_Corrupted_Concat-SVM": 3.6666666666666665,
+ "rank_B_Corrupted_MAXVAR-GCCA": 4.291666666666667,
+ "rank_B_Corrupted_DIMvLN-unified": 3.7291666666666665,
+ "rank_B_Corrupted_DCCA-style": 1.5625,
+ "rank_B_Corrupted_AdaptiveFusion": 1.75,
+ "rank_B_Joint_Concat-SVM": 4.5,
+ "rank_B_Joint_MAXVAR-GCCA": 3.7083333333333335,
+ "rank_B_Joint_DIMvLN-unified": 3.75,
+ "rank_B_Joint_DCCA-style": 1.25,
+ "rank_B_Joint_AdaptiveFusion": 1.7916666666666667,
+ "first_B_Concat-SVM": 0,
+ "first_B_MAXVAR-GCCA": 0,
+ "first_B_DIMvLN-unified": 1,
+ "first_B_DCCA-style": 50,
+ "first_B_AdaptiveFusion": 21,
+ "pair_Concat-SVM_A_Clean": [
+  4.751768398625752,
+  5,
+  1,
+  6
+ ],
+ "pair_Concat-SVM_A_Missing": [
+  15.204263148478105,
+  18,
+  0,
+  18
+ ],
+ "pair_Concat-SVM_A_Corrupted": [
+  10.223454282083553,
+  22,
+  2,
+  24
+ ],
+ "pair_Concat-SVM_A_Joint": [
+  18.88427353203728,
+  24,
+  0,
+  24
+ ],
+ "pair_Concat-SVM_B_Clean": [
+  4.751768398625752,
+  5,
+  1,
+  6
+ ],
+ "pair_Concat-SVM_B_Missing": [
+  13.614029233107987,
+  18,
+  0,
+  18
+ ],
+ "pair_Concat-SVM_B_Corrupted": [
+  7.624691045636438,
+  20,
+  2,
+  24
+ ],
+ "pair_Concat-SVM_B_Joint": [
+  15.831498442466126,
+  24,
+  0,
+  24
+ ],
+ "pair_MAXVAR-GCCA_A_Clean": [
+  9.480591937917346,
+  5,
+  0,
+  6
+ ],
+ "pair_MAXVAR-GCCA_A_Missing": [
+  6.056645214616982,
+  15,
+  0,
+  18
+ ],
+ "pair_MAXVAR-GCCA_A_Corrupted": [
+  10.921645020751633,
+  22,
+  0,
+  24
+ ],
+ "pair_MAXVAR-GCCA_A_Joint": [
+  6.630748795533343,
+  19,
+  0,
+  24
+ ],
+ "pair_MAXVAR-GCCA_B_Clean": [
+  9.480591937917346,
+  5,
+  0,
+  6
+ ],
+ "pair_MAXVAR-GCCA_B_Missing": [
+  8.90550524585938,
+  17,
+  0,
+  18
+ ],
+ "pair_MAXVAR-GCCA_B_Corrupted": [
+  11.971677042483135,
+  22,
+  1,
+  24
+ ],
+ "pair_MAXVAR-GCCA_B_Joint": [
+  9.70975100809982,
+  20,
+  0,
+  24
+ ],
+ "pair_DIMvLN-unified_A_Clean": [
+  5.065155646180906,
+  5,
+  0,
+  6
+ ],
+ "pair_DIMvLN-unified_A_Missing": [
+  1.9570288047578788,
+  9,
+  4,
+  18
+ ],
+ "pair_DIMvLN-unified_A_Corrupted": [
+  6.96632974119601,
+  24,
+  0,
+  24
+ ],
+ "pair_DIMvLN-unified_A_Joint": [
+  2.124855246907624,
+  13,
+  7,
+  24
+ ],
+ "pair_DIMvLN-unified_B_Clean": [
+  5.065155646180906,
+  5,
+  0,
+  6
+ ],
+ "pair_DIMvLN-unified_B_Missing": [
+  8.576752636866555,
+  18,
+  0,
+  18
+ ],
+ "pair_DIMvLN-unified_B_Corrupted": [
+  8.079323333990866,
+  20,
+  0,
+  24
+ ],
+ "pair_DIMvLN-unified_B_Joint": [
+  9.5378358221356,
+  24,
+  0,
+  24
+ ],
+ "pair_DCCA-style_A_Clean": [
+  -1.5801000809767523,
+  0,
+  1,
+  6
+ ],
+ "pair_DCCA-style_A_Missing": [
+  -1.7810452159511105,
+  0,
+  2,
+  18
+ ],
+ "pair_DCCA-style_A_Corrupted": [
+  -1.3278460326751558,
+  2,
+  4,
+  24
+ ],
+ "pair_DCCA-style_A_Joint": [
+  -1.649540190699182,
+  0,
+  3,
+  24
+ ],
+ "pair_DCCA-style_B_Clean": [
+  -1.5801000809767523,
+  0,
+  1,
+  6
+ ],
+ "pair_DCCA-style_B_Missing": [
+  -0.9119316076398789,
+  0,
+  0,
+  18
+ ],
+ "pair_DCCA-style_B_Corrupted": [
+  -0.6479506002500058,
+  5,
+  4,
+  24
+ ],
+ "pair_DCCA-style_B_Joint": [
+  -0.7208651558391524,
+  1,
+  0,
+  24
+ ],
+ "pair_BML-small_A_Clean": [
+  0.474835970259448,
+  2,
+  1,
+  6
+ ],
+ "pair_BML-small_A_Missing": [
+  5.347728591369009,
+  9,
+  0,
+  18
+ ],
+ "pair_BML-small_A_Corrupted": [
+  0.06905078075026043,
+  6,
+  4,
+  24
+ ],
+ "pair_BML-small_A_Joint": [
+  6.106975143960656,
+  13,
+  0,
+  24
+ ],
+ "pair_BML-small_B_Clean": [
+  0.474835970259448,
+  2,
+  1,
+  6
+ ],
+ "pair_BML-small_B_Missing": [
+  3.389604084668472,
+  7,
+  1,
+  18
+ ],
+ "pair_BML-small_B_Corrupted": [
+  0.6164645222836157,
+  8,
+  6,
+  24
+ ],
+ "pair_BML-small_B_Joint": [
+  2.9746414536291965,
+  10,
+  1,
+  24
+ ],
+ "pair_BML_A_Clean": [
+  -3.3682780647342305,
+  0,
+  3,
+  6
+ ],
+ "pair_BML_A_Missing": [
+  -4.931006101011055,
+  0,
+  7,
+  18
+ ],
+ "pair_BML_A_Corrupted": [
+  -5.567218328834227,
+  0,
+  12,
+  24
+ ],
+ "pair_BML_A_Joint": [
+  -4.643075724699054,
+  0,
+  8,
+  24
+ ],
+ "pair_BML_B_Clean": [
+  -3.3682780647342305,
+  0,
+  3,
+  6
+ ],
+ "pair_BML_B_Missing": [
+  -3.8966209728121566,
+  0,
+  9,
+  18
+ ],
+ "pair_BML_B_Corrupted": [
+  -4.99548558267169,
+  0,
+  15,
+  24
+ ],
+ "pair_BML_B_Joint": [
+  -5.386151302882356,
+  0,
+  16,
+  24
+ ],
+ "ctrl_SP-RR_A": [
+  0.9390621378904116,
+  26,
+  16,
+  7,
+  0,
+  42
+ ],
+ "spr_clean_A": 0.0,
+ "ctrl_SP-RR_B": [
+  0.7509771201620069,
+  27,
+  14,
+  5,
+  3,
+  42
+ ],
+ "spr_clean_B": 0.0,
+ "ctrl_Uniform_A": [
+  0.3230898563216542,
+  29,
+  13,
+  0,
+  0,
+  42
+ ],
+ "ctrl_Uniform_B": [
+  0.023585545134048914,
+  23,
+  19,
+  3,
+  0,
+  42
+ ],
+ "ctrl_Const-beta_A": [
+  0.045197020798803555,
+  18,
+  24,
+  0,
+  0,
+  42
+ ],
+ "ctrl_Const-beta_B": [
+  -0.13561742706297958,
+  14,
+  26,
+  0,
+  1,
+  42
+ ],
+ "caltech_clean_uniform": 87.22222222222223,
+ "caltech_clean_af": 78.73737373737373,
+ "pert_MFeat_SP-RR": -0.9999999999999858,
+ "pert_MFeat_Const-beta": -0.08333333333331439,
+ "pert_MFeat_Uniform": 0.0,
+ "pert_MFeat_AdaptiveFusion": 0.01666666666666572,
+ "pert_Caltech101-20_SP-RR": -2.6262626262626156,
+ "pert_Caltech101-20_Const-beta": 0.15151515151515582,
+ "pert_Caltech101-20_Uniform": 0.0,
+ "pert_Caltech101-20_AdaptiveFusion": 0.10101010101010388,
+ "pert_Scene15_SP-RR": -0.6612184249628541,
+ "pert_Scene15_Const-beta": -0.13372956909360312,
+ "pert_Scene15_Uniform": 0.0,
+ "pert_Scene15_AdaptiveFusion": -0.007429420505204121,
+ "pert_BDGP_SP-RR": -0.22666666666666657,
+ "pert_BDGP_Const-beta": 0.013333333333335418,
+ "pert_BDGP_Uniform": 0.0,
+ "pert_BDGP_AdaptiveFusion": -0.053333333333334565,
+ "pert_LandUse21_SP-RR": -0.4761904761904816,
+ "pert_LandUse21_Const-beta": -0.07936507936508264,
+ "pert_LandUse21_Uniform": 0.0,
+ "pert_LandUse21_AdaptiveFusion": -0.3333333333333286,
+ "pert_Reuters1200_SP-RR": -0.8611111111111285,
+ "pert_Reuters1200_Const-beta": -0.027777777777785673,
+ "pert_Reuters1200_Uniform": 0.0,
+ "pert_Reuters1200_AdaptiveFusion": -0.027777777777771462,
+ "auc_MFeat": {
+  "Noise50": [
+   0.9611783333333334,
+   0.8168927272727273
+  ],
+  "Conflict50": [
+   0.4990639898989899,
+   0.9504184343434343
+  ]
+ },
+ "auc_Caltech101-20": {
+  "Noise50": [
+   0.989503853966664,
+   0.6789038224299933
+  ],
+  "Conflict50": [
+   0.5061830425466789,
+   0.9128613963324707
+  ]
+ },
+ "auc_Scene15": {
+  "Noise50": [
+   0.989577483446633,
+   0.7451925136169245
+  ],
+  "Conflict50": [
+   0.5013837047307635,
+   0.7615790995939762
+  ]
+ },
+ "auc_BDGP": {
+  "Noise50": [
+   0.9588134399999999,
+   0.6349604266666666
+  ],
+  "Conflict50": [
+   0.6388241387867535,
+   0.6497167735180952
+  ]
+ },
+ "auc_LandUse21": {
+  "Noise50": [
+   0.9865154950869236,
+   0.6950826908541193
+  ],
+  "Conflict50": [
+   0.5079712773998488,
+   0.7163054673721341
+  ]
+ },
+ "auc_Reuters1200": {
+  "Noise50": [
+   0.9358082990397806,
+   0.7896543209876544
+  ],
+  "Conflict50": [
+   0.5047772633744856,
+   0.9335521262002743
+  ]
+ },
+ "loc": {
+  "BDGP_2_disagreement": 0.5,
+  "BDGP_2_residual": 0.6558464500775425,
+  "BDGP_3_disagreement": 0.5019242038562828,
+  "BDGP_3_residual": 0.44370401208014937,
+  "Caltech101-20_2_disagreement": 0.5,
+  "Caltech101-20_2_residual": 0.49468681386945124,
+  "Caltech101-20_3_disagreement": 0.7677212569064349,
+  "Caltech101-20_3_residual": 0.3155160311466426,
+  "Caltech101-20_4_disagreement": 0.7980683439178566,
+  "Caltech101-20_4_residual": 0.29232882305371055,
+  "Caltech101-20_5_disagreement": 0.7682212524317787,
+  "Caltech101-20_5_residual": 0.2574326258536785,
+  "Caltech101-20_6_disagreement": 0.8007279103129483,
+  "Caltech101-20_6_residual": 0.22699821121796573,
+  "LandUse21_2_disagreement": 0.5,
+  "LandUse21_2_residual": 0.46887928971221465,
+  "LandUse21_3_disagreement": 0.5735773612149808,
+  "LandUse21_3_residual": 0.34712512547830104,
+  "MFeat_2_disagreement": 0.5,
+  "MFeat_2_residual": 0.5140513090814508,
+  "MFeat_3_disagreement": 0.89059929520376,
+  "MFeat_3_residual": 0.33166524874622766,
+  "MFeat_4_disagreement": 0.8959654699811909,
+  "MFeat_4_residual": 0.26315202909180346,
+  "MFeat_5_disagreement": 0.8504097741772556,
+  "MFeat_5_residual": 0.2405770979593975,
+  "MFeat_6_disagreement": 0.8686628186628186,
+  "MFeat_6_residual": 0.15606060606060604,
+  "Reuters1200_2_disagreement": 0.5,
+  "Reuters1200_2_residual": 0.5380799526039782,
+  "Reuters1200_3_disagreement": 0.8212174113480216,
+  "Reuters1200_3_residual": 0.38386298108087363,
+  "Reuters1200_4_disagreement": 0.8602039791152695,
+  "Reuters1200_4_residual": 0.3523178598581824,
+  "Reuters1200_5_disagreement": 0.8822368989035656,
+  "Reuters1200_5_residual": 0.31142067808734475,
+  "Scene15_2_disagreement": 0.5,
+  "Scene15_2_residual": 0.5000466821936784,
+  "Scene15_3_disagreement": 0.6420034452250387,
+  "Scene15_3_residual": 0.34378521992501526
+ },
+ "cap_A": [
+  5.781583764278521,
+  23,
+  0,
+  42
+ ],
+ "capgap_A": 10.548058221682718,
+ "cap_B": [
+  3.152482581217457,
+  18,
+  3,
+  42
+ ],
+ "capgap_B": 7.900263742641156,
+ "plug_tr_A": [
+  1.1918246131958716,
+  42,
+  0,
+  10,
+  0,
+  42
+ ],
+ "plug_te_A": [
+  0.7614160849174646,
+  39,
+  2,
+  16,
+  0,
+  42
+ ],
+ "plug_tr_B": [
+  0.11412738947020427,
+  21,
+  21,
+  1,
+  0,
+  42
+ ],
+ "plug_own": [
+  0.07415295008693465,
+  24,
+  18,
+  1,
+  0,
+  42
+ ],
+ "router_A": [
+  -0.4401852413410464,
+  10,
+  32,
+  0,
+  7,
+  42
+ ],
+ "router_B": [
+  0.002156578572413773,
+  21,
+  20,
+  0,
+  2,
+  42
+ ],
+ "plug_small_A": [
+  0.4822006747075734,
+  33,
+  9,
+  1,
+  0,
+  42
+ ],
+ "plug_clean": [
+  0.08253274984330024,
+  2,
+  4,
+  0,
+  0,
+  6
+ ],
+ "plug_m70c50_MFeat": [
+  80.86666666666667,
+  84.7
+ ],
+ "plug_m70c50_Caltech101-20": [
+  56.06060606060606,
+  59.64646464646464
+ ],
+ "plug_m70c50_Scene15": [
+  59.58395245170876,
+  61.530460624071324
+ ],
+ "plug_m70c50_BDGP": [
+  56.90666666666666,
+  57.373333333333335
+ ],
+ "plug_m70c50_LandUse21": [
+  55.82539682539683,
+  56.634920634920626
+ ],
+ "plug_m70c50_Reuters1200": [
+  63.58333333333333,
+  66.11111111111111
+ ]
+}

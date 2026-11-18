@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\caption{Training Epochs Selected by Inner Cross-Validation}
+\label{tab:epochs}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccccccc}
+\toprule
+Method & MFeat & Calt. & Sc15 & BDGP & LU21 & Reut. & At max. \\
+\midrule
+AF & 400 & 400 & 400 & 25 & 400 & 400 & 70\% \\
+DCCA-style & 400 & 400 & 400 & 50 & 400 & 400 & 68\% \\
+DIMvLN$^\dagger$ & 100 & 300 & 50 & 212 & 400 & 400 & 45\% \\
+BML-CM$^\dagger$ & 400 & 400 & 400 & 200 & 400 & 400 & 80\% \\
+BML$^\dagger$ & 300 & 400 & 400 & 100 & 400 & 400 & 73\% \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Training epochs selected by three-fold inner cross-validation on the training split (median over ten seeds) and the share of selections at the upper end of the grid. AF: AdaptiveFusion. All learned methods select from the same grid $\{25,50,100,200,400\}$.}
+\end{table}

@@ -1,0 +1,31 @@
+\begin{table}[!t]
+\caption{Localization Accuracy for a Single Corrupted View}
+\label{tab:localization}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccccc}
+\toprule
+Dataset & $K{=}2$ & $3$ & $4$ & $5$ & $6$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Disagreement}} \\
+MFeat & 0.500 & 0.891 & 0.896 & 0.850 & 0.869 \\
+Caltech101-20 & 0.500 & 0.768 & 0.798 & 0.768 & 0.801 \\
+Scene15 & 0.500 & 0.642 & -- & -- & -- \\
+BDGP & 0.500 & 0.502 & -- & -- & -- \\
+LandUse-21 & 0.500 & 0.574 & -- & -- & -- \\
+Reuters-1200 & 0.500 & 0.821 & 0.860 & 0.882 & -- \\
+\multicolumn{6}{l}{\emph{Residual}} \\
+MFeat & 0.514 & 0.332 & 0.263 & 0.241 & 0.156 \\
+Caltech101-20 & 0.495 & 0.316 & 0.292 & 0.257 & 0.227 \\
+Scene15 & 0.500 & 0.344 & -- & -- & -- \\
+BDGP & 0.656 & 0.444 & -- & -- & -- \\
+LandUse-21 & 0.469 & 0.347 & -- & -- & -- \\
+Reuters-1200 & 0.538 & 0.384 & 0.352 & 0.311 & -- \\
+\midrule
+Chance $1/K$ & 0.500 & 0.333 & 0.250 & 0.200 & 0.167 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Localization accuracy $q_K$: among samples with exactly one corrupted (conflicting) observed view under Missing50/70+Conflict50, the probability that the corrupted view receives the highest unreliability score, by the number $K$ of observed views (ties share credit). Mean over ten seeds.}
+\end{table}

@@ -1,0 +1,20 @@
+Comparison,Description,Protocol,Head,Cells,MeanDiff_pp,Wins,Losses,SigWins,SigLosses
+plugin_trained,BML + controller (trained) vs BML,A,svm,42,1.19,42,0,10,0
+plugin_trained,BML + controller (trained) vs BML,A,own,42,0.07,24,18,1,0
+plugin_trained,BML + controller (trained) vs BML,B,svm,42,0.11,21,21,1,0
+plugin_testtime,BML + controller (test time only) vs BML,A,svm,42,0.76,39,2,16,0
+plugin_testtime,BML + controller (test time only) vs BML,A,own,42,0.06,28,11,2,0
+plugin_testtime,BML + controller (test time only) vs BML,B,svm,42,0.04,24,17,2,0
+router_value,BML router vs ignoring it (beta=0),A,svm,42,-0.44,10,32,0,7
+router_value,BML router vs ignoring it (beta=0),A,own,42,-0.04,18,23,1,4
+router_value,BML router vs ignoring it (beta=0),B,svm,42,0.0,21,20,0,2
+capacity,capacity-matched BML vs AdaptiveFusion,A,svm,42,-5.78,11,31,0,23
+capacity,capacity-matched BML vs AdaptiveFusion,B,svm,42,-3.15,16,26,3,18
+plugin_small,capacity-matched BML + controller vs capacity-matched BML,A,svm,42,0.48,33,9,1,0
+plugin_small,capacity-matched BML + controller vs capacity-matched BML,A,own,42,0.01,22,20,0,0
+plugin_small,capacity-matched BML + controller vs capacity-matched BML,B,svm,42,0.05,26,16,0,0
+small_ctrl_vs_af,capacity-matched BML + controller vs AdaptiveFusion,A,svm,42,-5.3,10,32,1,23
+small_ctrl_vs_af,capacity-matched BML + controller vs AdaptiveFusion,B,svm,42,-3.1,16,26,1,16
+capacity_cost,full BML vs capacity-matched BML,A,svm,42,10.55,34,8,26,2
+capacity_cost,full BML vs capacity-matched BML,A,own,42,7.54,36,6,27,0
+capacity_cost,full BML vs capacity-matched BML,B,svm,42,7.9,36,6,27,0

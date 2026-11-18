@@ -1,0 +1,68 @@
+\begin{table*}[!t]
+\caption{Accuracy (\%) under Protocol~A}
+\label{tab:mainA}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llcccccc}
+\toprule
+Dataset & Method & Clean & Missing30 & Missing50 & Missing70 & Conflict50 & Noise50 \\
+\midrule
+\multirow{7}{*}{MFeat} & Concat-SVM & 98.00\,{\scriptsize$\pm$0.50} & 93.93\,{\scriptsize$\pm$1.04} & 86.92\,{\scriptsize$\pm$0.97} & 75.27\,{\scriptsize$\pm$1.12} & 96.28\,{\scriptsize$\pm$0.37} & 85.15\,{\scriptsize$\pm$1.68} \\
+ & MAXVAR-GCCA & 97.12\,{\scriptsize$\pm$0.53} & 96.10\,{\scriptsize$\pm$0.50} & 93.33\,{\scriptsize$\pm$0.74} & 87.97\,{\scriptsize$\pm$0.98} & 96.28\,{\scriptsize$\pm$0.77} & 87.78\,{\scriptsize$\pm$1.19} \\
+ & DIMvLN$^\dagger$ & \textbf{98.68}\,{\scriptsize$\pm$0.52} & 97.30\,{\scriptsize$\pm$0.50} & 94.63\,{\scriptsize$\pm$0.73} & 91.03\,{\scriptsize$\pm$0.85} & 96.57\,{\scriptsize$\pm$0.69} & 95.80\,{\scriptsize$\pm$1.01} \\
+ & DCCA-style & 98.30\,{\scriptsize$\pm$0.22} & 97.63\,{\scriptsize$\pm$0.33} & 95.48\,{\scriptsize$\pm$0.67} & 91.15\,{\scriptsize$\pm$1.53} & 97.95\,{\scriptsize$\pm$0.24} & 98.15\,{\scriptsize$\pm$0.29} \\
+ & \textbf{AdaptiveFusion} & 98.60\,{\scriptsize$\pm$0.42} & \textbf{97.83}\,{\scriptsize$\pm$0.45} & \textbf{95.60}\,{\scriptsize$\pm$0.64} & \textbf{91.23}\,{\scriptsize$\pm$1.12} & \textbf{98.18}\,{\scriptsize$\pm$0.51} & \textbf{98.45}\,{\scriptsize$\pm$0.55} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 98.60\,{\scriptsize$\pm$0.38} & 97.53\,{\scriptsize$\pm$0.67} & 93.50\,{\scriptsize$\pm$1.21} & 84.32\,{\scriptsize$\pm$3.12} & 98.37\,{\scriptsize$\pm$0.62} & 98.52\,{\scriptsize$\pm$0.44} \\
+ & BML$^\dagger$ & 98.83\,{\scriptsize$\pm$0.40} & 98.12\,{\scriptsize$\pm$0.31} & 95.85\,{\scriptsize$\pm$0.91} & 91.48\,{\scriptsize$\pm$1.65} & 98.63\,{\scriptsize$\pm$0.37} & 98.73\,{\scriptsize$\pm$0.50} \\
+\midrule
+\multirow{7}{*}{Caltech101-20} & Concat-SVM & 83.74\,{\scriptsize$\pm$2.23} & 74.65\,{\scriptsize$\pm$2.46} & 63.74\,{\scriptsize$\pm$1.65} & 52.27\,{\scriptsize$\pm$3.03} & 79.49\,{\scriptsize$\pm$1.49} & 68.69\,{\scriptsize$\pm$2.94} \\
+ & MAXVAR-GCCA & 78.38\,{\scriptsize$\pm$2.51} & 75.20\,{\scriptsize$\pm$3.02} & 71.87\,{\scriptsize$\pm$3.03} & 63.59\,{\scriptsize$\pm$2.60} & 76.52\,{\scriptsize$\pm$2.41} & 64.90\,{\scriptsize$\pm$3.71} \\
+ & DIMvLN$^\dagger$ & 74.49\,{\scriptsize$\pm$2.95} & 69.55\,{\scriptsize$\pm$2.58} & 65.56\,{\scriptsize$\pm$2.58} & 59.04\,{\scriptsize$\pm$2.75} & 69.49\,{\scriptsize$\pm$3.52} & 67.83\,{\scriptsize$\pm$3.10} \\
+ & DCCA-style & \textbf{87.07}\,{\scriptsize$\pm$0.86} & \textbf{84.04}\,{\scriptsize$\pm$2.24} & \textbf{78.38}\,{\scriptsize$\pm$3.12} & \textbf{70.71}\,{\scriptsize$\pm$3.93} & \textbf{84.80}\,{\scriptsize$\pm$1.08} & \textbf{86.82}\,{\scriptsize$\pm$1.34} \\
+ & \textbf{AdaptiveFusion} & 78.74\,{\scriptsize$\pm$2.66} & 81.01\,{\scriptsize$\pm$1.97} & 75.66\,{\scriptsize$\pm$1.76} & 67.02\,{\scriptsize$\pm$4.34} & 75.15\,{\scriptsize$\pm$2.64} & 77.58\,{\scriptsize$\pm$3.50} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 87.88\,{\scriptsize$\pm$1.39} & 82.68\,{\scriptsize$\pm$1.35} & 73.28\,{\scriptsize$\pm$2.20} & 59.09\,{\scriptsize$\pm$2.66} & 85.91\,{\scriptsize$\pm$0.87} & 87.27\,{\scriptsize$\pm$1.56} \\
+ & BML$^\dagger$ & 88.74\,{\scriptsize$\pm$1.19} & 85.45\,{\scriptsize$\pm$1.95} & 78.94\,{\scriptsize$\pm$1.78} & 66.77\,{\scriptsize$\pm$2.57} & 88.18\,{\scriptsize$\pm$1.37} & 88.13\,{\scriptsize$\pm$1.24} \\
+\midrule
+\multirow{7}{*}{Scene15} & Concat-SVM & 76.31\,{\scriptsize$\pm$0.88} & 53.88\,{\scriptsize$\pm$1.61} & 40.86\,{\scriptsize$\pm$1.46} & 31.40\,{\scriptsize$\pm$1.14} & 57.94\,{\scriptsize$\pm$1.04} & 41.26\,{\scriptsize$\pm$0.77} \\
+ & MAXVAR-GCCA & 69.56\,{\scriptsize$\pm$1.27} & 61.97\,{\scriptsize$\pm$1.35} & 56.70\,{\scriptsize$\pm$1.63} & 52.01\,{\scriptsize$\pm$1.62} & 58.14\,{\scriptsize$\pm$1.14} & 47.63\,{\scriptsize$\pm$1.32} \\
+ & DIMvLN$^\dagger$ & 73.86\,{\scriptsize$\pm$0.98} & 67.53\,{\scriptsize$\pm$1.20} & 61.80\,{\scriptsize$\pm$1.28} & \textbf{57.96}\,{\scriptsize$\pm$1.46} & 61.57\,{\scriptsize$\pm$0.85} & 53.66\,{\scriptsize$\pm$1.63} \\
+ & DCCA-style & \textbf{79.68}\,{\scriptsize$\pm$1.18} & \textbf{69.64}\,{\scriptsize$\pm$1.58} & \textbf{62.66}\,{\scriptsize$\pm$1.37} & 56.70\,{\scriptsize$\pm$1.94} & \textbf{66.84}\,{\scriptsize$\pm$1.52} & 62.56\,{\scriptsize$\pm$2.02} \\
+ & \textbf{AdaptiveFusion} & 78.87\,{\scriptsize$\pm$1.49} & 68.54\,{\scriptsize$\pm$1.60} & 60.39\,{\scriptsize$\pm$1.30} & 54.06\,{\scriptsize$\pm$1.61} & 66.10\,{\scriptsize$\pm$1.20} & \textbf{65.70}\,{\scriptsize$\pm$1.98} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 75.39\,{\scriptsize$\pm$1.13} & 60.65\,{\scriptsize$\pm$1.99} & 48.73\,{\scriptsize$\pm$3.01} & 39.54\,{\scriptsize$\pm$2.77} & 62.59\,{\scriptsize$\pm$0.78} & 64.29\,{\scriptsize$\pm$1.95} \\
+ & BML$^\dagger$ & 82.08\,{\scriptsize$\pm$0.93} & 74.75\,{\scriptsize$\pm$0.92} & 68.80\,{\scriptsize$\pm$1.48} & 63.85\,{\scriptsize$\pm$1.38} & 76.34\,{\scriptsize$\pm$0.84} & 74.35\,{\scriptsize$\pm$0.81} \\
+\midrule
+\multirow{7}{*}{BDGP} & Concat-SVM & 84.89\,{\scriptsize$\pm$1.46} & 70.35\,{\scriptsize$\pm$2.46} & 60.63\,{\scriptsize$\pm$1.78} & 54.63\,{\scriptsize$\pm$1.47} & 73.88\,{\scriptsize$\pm$1.70} & 81.20\,{\scriptsize$\pm$1.66} \\
+ & MAXVAR-GCCA & 82.07\,{\scriptsize$\pm$1.34} & 70.89\,{\scriptsize$\pm$1.00} & 63.21\,{\scriptsize$\pm$0.80} & 57.03\,{\scriptsize$\pm$1.90} & 72.07\,{\scriptsize$\pm$1.04} & 77.21\,{\scriptsize$\pm$1.14} \\
+ & DIMvLN$^\dagger$ & 82.67\,{\scriptsize$\pm$1.27} & 71.32\,{\scriptsize$\pm$1.63} & 62.73\,{\scriptsize$\pm$2.02} & 56.65\,{\scriptsize$\pm$2.93} & 72.45\,{\scriptsize$\pm$1.83} & 76.45\,{\scriptsize$\pm$1.49} \\
+ & DCCA-style & \textbf{89.16}\,{\scriptsize$\pm$0.93} & \textbf{75.76}\,{\scriptsize$\pm$1.86} & \textbf{66.56}\,{\scriptsize$\pm$1.63} & \textbf{60.17}\,{\scriptsize$\pm$1.39} & \textbf{77.71}\,{\scriptsize$\pm$1.46} & \textbf{87.29}\,{\scriptsize$\pm$0.99} \\
+ & \textbf{AdaptiveFusion} & 88.51\,{\scriptsize$\pm$1.08} & 75.25\,{\scriptsize$\pm$2.08} & 65.57\,{\scriptsize$\pm$1.51} & 58.67\,{\scriptsize$\pm$1.28} & 77.13\,{\scriptsize$\pm$1.24} & 86.64\,{\scriptsize$\pm$1.36} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 89.08\,{\scriptsize$\pm$1.16} & 76.09\,{\scriptsize$\pm$1.45} & 66.92\,{\scriptsize$\pm$1.90} & 59.73\,{\scriptsize$\pm$1.02} & 78.00\,{\scriptsize$\pm$1.61} & 86.85\,{\scriptsize$\pm$1.41} \\
+ & BML$^\dagger$ & 89.29\,{\scriptsize$\pm$1.10} & 76.20\,{\scriptsize$\pm$1.73} & 66.80\,{\scriptsize$\pm$1.99} & 60.01\,{\scriptsize$\pm$1.93} & 78.37\,{\scriptsize$\pm$1.59} & 87.63\,{\scriptsize$\pm$0.99} \\
+\midrule
+\multirow{7}{*}{LandUse-21} & Concat-SVM & 57.37\,{\scriptsize$\pm$2.34} & 38.38\,{\scriptsize$\pm$2.50} & 28.06\,{\scriptsize$\pm$1.41} & 21.17\,{\scriptsize$\pm$1.12} & 41.27\,{\scriptsize$\pm$1.66} & 30.94\,{\scriptsize$\pm$1.68} \\
+ & MAXVAR-GCCA & 42.97\,{\scriptsize$\pm$1.69} & 35.97\,{\scriptsize$\pm$2.38} & 31.32\,{\scriptsize$\pm$1.57} & 27.13\,{\scriptsize$\pm$2.70} & 35.46\,{\scriptsize$\pm$1.41} & 27.21\,{\scriptsize$\pm$1.48} \\
+ & DIMvLN$^\dagger$ & 67.89\,{\scriptsize$\pm$2.62} & \textbf{60.08}\,{\scriptsize$\pm$2.30} & \textbf{54.89}\,{\scriptsize$\pm$1.86} & \textbf{50.62}\,{\scriptsize$\pm$2.18} & 54.79\,{\scriptsize$\pm$1.67} & 45.62\,{\scriptsize$\pm$1.78} \\
+ & DCCA-style & \textbf{73.11}\,{\scriptsize$\pm$2.51} & 59.90\,{\scriptsize$\pm$2.20} & 49.95\,{\scriptsize$\pm$3.10} & 42.29\,{\scriptsize$\pm$2.47} & \textbf{59.29}\,{\scriptsize$\pm$2.05} & 53.92\,{\scriptsize$\pm$1.45} \\
+ & \textbf{AdaptiveFusion} & 73.02\,{\scriptsize$\pm$2.03} & 56.87\,{\scriptsize$\pm$2.56} & 45.59\,{\scriptsize$\pm$3.31} & 36.87\,{\scriptsize$\pm$2.32} & 57.68\,{\scriptsize$\pm$1.83} & \textbf{57.60}\,{\scriptsize$\pm$1.51} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 63.71\,{\scriptsize$\pm$1.64} & 42.40\,{\scriptsize$\pm$2.37} & 29.62\,{\scriptsize$\pm$2.96} & 20.19\,{\scriptsize$\pm$2.71} & 48.73\,{\scriptsize$\pm$2.00} & 46.86\,{\scriptsize$\pm$1.08} \\
+ & BML$^\dagger$ & 79.19\,{\scriptsize$\pm$1.13} & 71.67\,{\scriptsize$\pm$1.35} & 64.98\,{\scriptsize$\pm$1.61} & 59.83\,{\scriptsize$\pm$1.96} & 71.41\,{\scriptsize$\pm$1.88} & 70.57\,{\scriptsize$\pm$1.11} \\
+\midrule
+\multirow{7}{*}{Reuters-1200} & Concat-SVM & 63.81\,{\scriptsize$\pm$2.80} & 51.31\,{\scriptsize$\pm$2.17} & 42.89\,{\scriptsize$\pm$2.82} & 34.47\,{\scriptsize$\pm$2.95} & 56.39\,{\scriptsize$\pm$2.07} & 56.83\,{\scriptsize$\pm$2.89} \\
+ & MAXVAR-GCCA & 65.64\,{\scriptsize$\pm$1.43} & 65.81\,{\scriptsize$\pm$1.56} & 65.17\,{\scriptsize$\pm$1.86} & 64.19\,{\scriptsize$\pm$2.17} & 64.61\,{\scriptsize$\pm$1.81} & 64.64\,{\scriptsize$\pm$1.90} \\
+ & DIMvLN$^\dagger$ & 64.64\,{\scriptsize$\pm$2.07} & 65.97\,{\scriptsize$\pm$2.03} & 64.22\,{\scriptsize$\pm$1.47} & 62.36\,{\scriptsize$\pm$2.92} & 61.89\,{\scriptsize$\pm$1.90} & 62.14\,{\scriptsize$\pm$1.94} \\
+ & DCCA-style & 74.78\,{\scriptsize$\pm$0.93} & 74.11\,{\scriptsize$\pm$1.96} & \textbf{73.75}\,{\scriptsize$\pm$1.70} & \textbf{71.64}\,{\scriptsize$\pm$1.67} & \textbf{73.81}\,{\scriptsize$\pm$1.65} & 74.39\,{\scriptsize$\pm$1.28} \\
+ & \textbf{AdaptiveFusion} & \textbf{74.89}\,{\scriptsize$\pm$1.41} & \textbf{74.14}\,{\scriptsize$\pm$2.13} & 73.00\,{\scriptsize$\pm$1.92} & 71.17\,{\scriptsize$\pm$1.92} & 72.97\,{\scriptsize$\pm$2.62} & \textbf{74.67}\,{\scriptsize$\pm$1.40} \\
+\cmidrule(lr){2-8}
+ & BML-CM$^\dagger$ & 75.11\,{\scriptsize$\pm$1.80} & 74.44\,{\scriptsize$\pm$1.84} & 72.69\,{\scriptsize$\pm$2.23} & 70.81\,{\scriptsize$\pm$2.47} & 74.92\,{\scriptsize$\pm$2.52} & 74.83\,{\scriptsize$\pm$1.69} \\
+ & BML$^\dagger$ & 74.69\,{\scriptsize$\pm$1.89} & 74.22\,{\scriptsize$\pm$1.72} & 71.11\,{\scriptsize$\pm$2.04} & 68.39\,{\scriptsize$\pm$3.21} & 74.03\,{\scriptsize$\pm$2.58} & 74.64\,{\scriptsize$\pm$1.85} \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Accuracy (\%, mean\,$\pm$\,std over ten seeds) under Protocol~A (one classifier fitted on clean training representations). Bold: best feature-level method. Below the inner rule: decision-level BML at matched capacity (BML-CM) and at full width (BML), for reference. $^\dagger$Re-implemented under the common protocol.}
+\end{table*}

@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\caption{Accuracy Change under Perturbed Reliability Scores}
+\label{tab:perturb}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+Dataset & SP-RR & Const-$\beta$ & Uniform & AF \\
+\midrule
+MFeat & $-1.00$ & $-0.08$ & $+0.00$ & $+0.02$ \\
+Caltech101-20 & $-2.63$ & $+0.15$ & $+0.00$ & $+0.10$ \\
+Scene15 & $-0.66$ & $-0.13$ & $+0.00$ & $-0.01$ \\
+BDGP & $-0.23$ & $+0.01$ & $+0.00$ & $-0.05$ \\
+LandUse-21 & $-0.48$ & $-0.08$ & $+0.00$ & $-0.33$ \\
+Reuters-1200 & $-0.86$ & $-0.03$ & $+0.00$ & $-0.03$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Accuracy change (pp) when the test-time reliability scores are perturbed by i.i.d.\ $\mathcal U[-\sigma,\sigma]$ noise ($\sigma=0.5$), Missing70, Protocol~A, same trained model.}
+\end{table}

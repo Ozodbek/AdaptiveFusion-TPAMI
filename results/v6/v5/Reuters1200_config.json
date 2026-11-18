@@ -1,0 +1,11 @@
+{
+ "dataset": "Reuters1200",
+ "AdaptiveFusion_params": 983894,
+ "BML_full_params": 21600675,
+ "BML_small_params": 989555,
+ "BML_small_config": {
+  "width": 84,
+  "feat": 84,
+  "route": 84
+ }
+}

@@ -1,0 +1,40 @@
+\begin{table}[!t]
+\caption{Fusion-Rule Controls on the Same Trained Model}
+\label{tab:controls}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{llcccccccc}
+\toprule
+& & \multicolumn{4}{c}{Protocol A} & \multicolumn{4}{c}{Protocol B} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+Dataset & Cond. & U & C$\beta$ & SP & AF & U & C$\beta$ & SP & AF \\
+\midrule
+\multirow{3}{*}{MFeat} & M50 & 95.6 & 95.6 & \textbf{95.7} & 95.6 & 96.0 & \textbf{96.1} & 96.0 & 96.0 \\
+ & M70 & \textbf{91.3} & \textbf{91.3} & 91.3 & 91.2 & 92.4 & \textbf{92.5} & 92.4 & 92.4 \\
+ & M70+C50 & 81.8 & \textbf{81.9} & 81.6 & 81.8 & 82.6 & 82.6 & 81.9 & \textbf{82.6} \\
+\midrule
+\multirow{3}{*}{Caltech} & M50 & \textbf{76.1} & 75.2 & 68.5 & 75.7 & \textbf{76.5} & 75.5 & 69.0 & 75.4 \\
+ & M70 & 66.5 & 67.0 & 62.3 & \textbf{67.0} & \textbf{69.8} & 69.5 & 64.2 & 69.6 \\
+ & M70+C50 & 56.9 & 57.0 & 52.6 & \textbf{57.3} & \textbf{56.5} & 55.4 & 49.6 & 56.0 \\
+\midrule
+\multirow{3}{*}{Scene15} & M50 & 59.3 & 59.8 & 60.4 & \textbf{60.4} & 66.8 & \textbf{67.0} & 66.7 & 66.8 \\
+ & M70 & 53.1 & 52.9 & 53.9 & \textbf{54.1} & \textbf{63.2} & 63.2 & 62.9 & 63.1 \\
+ & M70+C50 & 48.6 & 48.6 & 49.8 & \textbf{49.8} & 58.5 & 58.5 & 58.3 & \textbf{58.5} \\
+\midrule
+\multirow{3}{*}{BDGP} & M50 & 65.3 & 65.5 & 65.3 & \textbf{65.6} & \textbf{67.3} & 67.3 & 67.0 & 66.9 \\
+ & M70 & 58.6 & \textbf{58.7} & 58.5 & 58.7 & 60.5 & \textbf{60.6} & 60.1 & 60.5 \\
+ & M70+C50 & 55.5 & \textbf{55.9} & 55.5 & 55.6 & 56.5 & 56.4 & 56.5 & \textbf{56.6} \\
+\midrule
+\multirow{3}{*}{LandUse} & M50 & 45.2 & \textbf{45.9} & 45.9 & 45.6 & 56.3 & \textbf{56.7} & 55.8 & 56.4 \\
+ & M70 & 36.2 & 36.5 & \textbf{36.9} & 36.9 & 50.7 & \textbf{50.8} & 50.5 & \textbf{50.8} \\
+ & M70+C50 & 32.9 & 33.1 & \textbf{33.6} & 33.5 & 47.0 & \textbf{47.1} & 46.8 & 47.0 \\
+\midrule
+\multirow{3}{*}{Reuters} & M50 & 73.1 & \textbf{73.3} & 73.2 & 73.0 & 72.8 & 72.8 & \textbf{73.0} & 72.9 \\
+ & M70 & 71.1 & \textbf{71.2} & 71.1 & 71.2 & \textbf{70.9} & 70.8 & 70.8 & 70.8 \\
+ & M70+C50 & 67.1 & \textbf{67.4} & 66.7 & 67.1 & 63.8 & 63.5 & 63.8 & \textbf{63.9} \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Fusion-rule controls on the same trained AdaptiveFusion model (accuracy \%). U: Uniform, $\beta_i=0$ (reliability ignored); C$\beta$: Const-$\beta$, $\beta_i=0.5$; SP: SP-RR, $\beta_i=1$ (fixed reliability weighting); AF: AdaptiveFusion, $\beta_i=(K_i-1)/(V-1)$. Bold: best rule.}
+\end{table}

@@ -1,0 +1,68 @@
+\begin{table}[!t]
+\caption{Accuracy (\%) under Protocol~B}
+\label{tab:mainB}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llccccc}
+\toprule
+Dataset & Method & M30 & M50 & M70 & C50 & N50 \\
+\midrule
+\multirow{7}{*}{MFeat} & Concat-SVM & 92.92 & 85.58 & 80.40 & 96.22 & 96.03 \\
+ & MAXVAR-GCCA & 96.07 & 93.88 & 89.90 & 96.25 & 91.03 \\
+ & DIMvLN$^\dagger$ & 96.87 & 94.15 & 88.78 & 98.05 & 98.13 \\
+ & DCCA-style & 97.65 & 95.80 & 92.17 & 97.92 & 98.10 \\
+ & \textbf{AdaptiveFusion} & \textbf{97.92} & \textbf{95.98} & \textbf{92.45} & \textbf{98.23} & \textbf{98.57} \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 97.80 & 95.27 & 90.72 & 98.47 & 98.58 \\
+ & BML$^\dagger$ & 98.12 & 96.40 & 92.92 & 98.58 & 98.70 \\
+\midrule
+\multirow{7}{*}{Caltech101-20} & Concat-SVM & 70.20 & 54.90 & 42.42 & 78.59 & 79.60 \\
+ & MAXVAR-GCCA & 75.51 & 71.87 & 64.09 & 77.07 & 65.35 \\
+ & DIMvLN$^\dagger$ & 65.00 & 57.37 & 49.70 & 67.58 & 68.28 \\
+ & DCCA-style & \textbf{83.79} & \textbf{79.39} & \textbf{70.96} & \textbf{83.99} & \textbf{87.02} \\
+ & \textbf{AdaptiveFusion} & 80.56 & 75.35 & 69.65 & 74.34 & 81.21 \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 82.83 & 76.41 & 65.00 & 85.91 & 87.27 \\
+ & BML$^\dagger$ & 85.76 & 81.67 & 75.45 & 87.93 & 88.08 \\
+\midrule
+\multirow{7}{*}{Scene15} & Concat-SVM & 63.45 & 57.11 & 53.51 & 61.10 & 63.17 \\
+ & MAXVAR-GCCA & 61.98 & 57.39 & 53.92 & 57.91 & 50.31 \\
+ & DIMvLN$^\dagger$ & 65.62 & 61.20 & 58.37 & 63.51 & 63.02 \\
+ & DCCA-style & \textbf{72.77} & \textbf{67.51} & \textbf{63.71} & \textbf{67.85} & 66.31 \\
+ & \textbf{AdaptiveFusion} & 71.93 & 66.81 & 63.11 & 67.30 & \textbf{72.83} \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 65.68 & 59.41 & 54.29 & 64.54 & 65.82 \\
+ & BML$^\dagger$ & 76.36 & 72.02 & 69.11 & 76.84 & 76.13 \\
+\midrule
+\multirow{7}{*}{BDGP} & Concat-SVM & 72.16 & 62.64 & 56.44 & 73.25 & 82.80 \\
+ & MAXVAR-GCCA & 70.67 & 62.99 & 56.75 & 71.45 & 77.56 \\
+ & DIMvLN$^\dagger$ & 67.37 & 58.87 & 53.67 & 68.53 & 75.20 \\
+ & DCCA-style & \textbf{76.32} & \textbf{67.24} & \textbf{60.92} & \textbf{77.67} & \textbf{87.67} \\
+ & \textbf{AdaptiveFusion} & 75.80 & 66.88 & 60.45 & 75.63 & 86.97 \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 76.91 & 67.49 & 61.25 & 77.92 & 86.93 \\
+ & BML$^\dagger$ & 77.00 & 67.73 & 61.64 & 78.28 & 87.60 \\
+\midrule
+\multirow{7}{*}{LandUse-21} & Concat-SVM & 41.95 & 35.59 & 29.90 & 39.30 & 39.33 \\
+ & MAXVAR-GCCA & 35.02 & 31.75 & 27.67 & 33.70 & 23.51 \\
+ & DIMvLN$^\dagger$ & 55.68 & 50.79 & 46.97 & 51.44 & 44.49 \\
+ & DCCA-style & \textbf{63.21} & \textbf{57.78} & \textbf{52.71} & \textbf{57.17} & 55.51 \\
+ & \textbf{AdaptiveFusion} & 62.40 & 56.40 & 50.79 & 56.30 & \textbf{63.57} \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 50.70 & 43.79 & 38.38 & 48.57 & 49.16 \\
+ & BML$^\dagger$ & 73.21 & 67.94 & 63.33 & 71.84 & 73.48 \\
+\midrule
+\multirow{7}{*}{Reuters-1200} & Concat-SVM & 55.53 & 53.31 & 51.19 & 58.03 & 57.92 \\
+ & MAXVAR-GCCA & 65.36 & 65.11 & 64.06 & 64.67 & 65.14 \\
+ & DIMvLN$^\dagger$ & 63.44 & 60.17 & 55.86 & 61.61 & 61.58 \\
+ & DCCA-style & 73.86 & \textbf{73.28} & \textbf{71.61} & \textbf{73.44} & 74.44 \\
+ & \textbf{AdaptiveFusion} & \textbf{74.11} & 72.86 & 70.81 & 72.81 & \textbf{74.81} \\
+\cmidrule(lr){2-7}
+ & BML-CM$^\dagger$ & 74.11 & 72.58 & 70.61 & 74.94 & 74.92 \\
+ & BML$^\dagger$ & 74.19 & 71.50 & 70.06 & 73.94 & 74.78 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Mean accuracy (\%) over ten seeds under Protocol~B (classifier fitted on training data subjected to the test condition). Clean results coincide with Protocol~A and are omitted. Bold: best feature-level method. Standard deviations are released with the per-seed results.}
+\end{table}

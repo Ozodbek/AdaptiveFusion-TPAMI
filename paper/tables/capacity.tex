@@ -1,0 +1,34 @@
+\begin{table}[!t]
+\caption{Capacity Control}
+\label{tab:capacity}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{lcccccccc}
+\toprule
+& \multicolumn{3}{c}{Parameters} & & \multicolumn{3}{c}{Accuracy} & \\
+\cmidrule(lr){2-4}\cmidrule(lr){6-8}
+Dataset & AF & CM & BML & P. & AF & CM & BML & W/L \\
+\midrule
+\multirow{2}{*}{MFeat} & \multirow{2}{*}{91k} & \multirow{2}{*}{90k} & \multirow{2}{*}{14.3M} & A & 91.1 & 86.8 & 91.2 & 6/0 \\
+ &  &  &  & B & 91.6 & 90.8 & 92.8 & 3/0 \\
+\addlinespace[2pt]
+\multirow{2}{*}{Caltech} & \multirow{2}{*}{391k} & \multirow{2}{*}{388k} & \multirow{2}{*}{17.5M} & A & 69.5 & 65.0 & 70.5 & 3/0 \\
+ &  &  &  & B & 69.2 & 69.0 & 76.4 & 1/0 \\
+\addlinespace[2pt]
+\multirow{2}{*}{Scene15} & \multirow{2}{*}{26k} & \multirow{2}{*}{26k} & \multirow{2}{*}{6.9M} & A & 55.1 & 43.8 & 63.8 & 7/0 \\
+ &  &  &  & B & 62.5 & 54.6 & 68.3 & 7/0 \\
+\addlinespace[2pt]
+\multirow{2}{*}{BDGP} & \multirow{2}{*}{182k} & \multirow{2}{*}{182k} & \multirow{2}{*}{8.6M} & A & 62.5 & 63.3 & 63.6 & 0/0 \\
+ &  &  &  & B & 63.6 & 64.5 & 64.9 & 0/2 \\
+\addlinespace[2pt]
+\multirow{2}{*}{LandUse} & \multirow{2}{*}{27k} & \multirow{2}{*}{27k} & \multirow{2}{*}{6.9M} & A & 40.7 & 25.2 & 60.3 & 7/0 \\
+ &  &  &  & B & 51.1 & 39.2 & 63.7 & 7/0 \\
+\addlinespace[2pt]
+\multirow{2}{*}{Reuters} & \multirow{2}{*}{984k} & \multirow{2}{*}{990k} & \multirow{2}{*}{21.6M} & A & 70.6 & 70.8 & 68.7 & 0/0 \\
+ &  &  &  & B & 69.7 & 70.6 & 70.1 & 0/1 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\linewidth}{\scriptsize Capacity control. Parameter counts of AdaptiveFusion (AF), of BML with its width reduced to match AdaptiveFusion (CM), and of full-width BML; mean accuracy (\%) over the seven scarcity conditions (Missing30/50/70 and the four joint conditions) under Protocols A and B (P.); and the number of these conditions in which AdaptiveFusion is Holm-significantly better/worse than capacity-matched BML (W/L; Holm correction over the 42 scarcity cells).}
+\end{table}

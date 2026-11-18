@@ -1,0 +1,11 @@
+{
+ "dataset": "Scene15",
+ "AdaptiveFusion_params": 26319,
+ "BML_full_params": 6941744,
+ "BML_small_params": 26334,
+ "BML_small_config": {
+  "width": 39,
+  "feat": 39,
+  "route": 39
+ }
+}

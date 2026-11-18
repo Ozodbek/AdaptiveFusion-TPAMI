@@ -1,0 +1,11 @@
+{
+ "dataset": "MFeat",
+ "AdaptiveFusion_params": 91114,
+ "BML_full_params": 14300482,
+ "BML_small_params": 90353,
+ "BML_small_config": {
+  "width": 47,
+  "feat": 47,
+  "route": 47
+ }
+}
