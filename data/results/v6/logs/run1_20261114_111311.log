@@ -1,0 +1,319 @@
+[11:13:14] Environment:
+  date: 20261114_111311
+  epoch grid: 25,50,100,200,400
+  python: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+  platform: Windows-11-10.0.26200-SP0
+  torch: 2.14.1+cu126
+  numpy: 2.5.4
+  scipy: 1.18.1
+  sklearn: 1.9.1
+  pandas: 3.1.1
+  matplotlib: 3.11.2
+  cuda available: True
+  gpu: NVIDIA GeForce RTX 4090
+[11:13:14] START v6_fast_MFeat: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset MFeat --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    MFeat seed=3 AF epochs=2 done (5s)
+    MFeat seed=3 CONCAT epochs=0 done (17s)
+    MFeat seed=3 GCCA epochs=0 done (2s)
+    MFeat seed=3 DCCA epochs=2 done (2s)
+    MFeat seed=7 AF epochs=2 done (5s)
+    MFeat seed=7 CONCAT epochs=0 done (18s)
+    MFeat seed=7 GCCA epochs=0 done (2s)
+    MFeat seed=7 DCCA epochs=2 done (2s)
+[11:14:10] DONE v6_fast_MFeat (0.9 min)
+[11:14:10] START v6_fast_Caltech101-20: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Caltech101-20 --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Caltech101-20 seed=3 AF epochs=2 done (4s)
+    Caltech101-20 seed=3 CONCAT epochs=0 done (5s)
+    Caltech101-20 seed=3 GCCA epochs=0 done (0s)
+    Caltech101-20 seed=3 DCCA epochs=2 done (1s)
+    Caltech101-20 seed=7 AF epochs=2 done (4s)
+    Caltech101-20 seed=7 CONCAT epochs=0 done (5s)
+    Caltech101-20 seed=7 GCCA epochs=0 done (1s)
+    Caltech101-20 seed=7 DCCA epochs=2 done (1s)
+[11:14:35] DONE v6_fast_Caltech101-20 (0.4 min)
+[11:14:35] START v6_fast_Scene15: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Scene15 --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Scene15 seed=3 AF epochs=2 done (14s)
+    Scene15 seed=3 CONCAT epochs=0 done (5s)
+    Scene15 seed=3 GCCA epochs=0 done (8s)
+    Scene15 seed=3 DCCA epochs=2 done (3s)
+    Scene15 seed=7 AF epochs=2 done (12s)
+    Scene15 seed=7 CONCAT epochs=0 done (4s)
+    Scene15 seed=7 GCCA epochs=0 done (8s)
+    Scene15 seed=7 DCCA epochs=2 done (5s)
+[11:15:39] DONE v6_fast_Scene15 (1.1 min)
+[11:15:39] START v6_fast_BDGP: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset BDGP --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    BDGP seed=3 AF epochs=2 done (7s)
+    BDGP seed=3 CONCAT epochs=0 done (9s)
+    BDGP seed=3 GCCA epochs=0 done (5s)
+    BDGP seed=3 DCCA epochs=2 done (2s)
+    BDGP seed=7 AF epochs=2 done (6s)
+    BDGP seed=7 CONCAT epochs=0 done (9s)
+    BDGP seed=7 GCCA epochs=0 done (5s)
+    BDGP seed=7 DCCA epochs=2 done (2s)
+[11:16:26] DONE v6_fast_BDGP (0.8 min)
+[11:16:26] START v6_fast_LandUse21: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset LandUse21 --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    LandUse21 seed=3 AF epochs=2 done (9s)
+    LandUse21 seed=3 CONCAT epochs=0 done (4s)
+    LandUse21 seed=3 GCCA epochs=0 done (2s)
+    LandUse21 seed=3 DCCA epochs=2 done (2s)
+    LandUse21 seed=7 AF epochs=2 done (11s)
+    LandUse21 seed=7 CONCAT epochs=0 done (8s)
+    LandUse21 seed=7 GCCA epochs=0 done (3s)
+    LandUse21 seed=7 DCCA epochs=1 done (3s)
+[11:17:13] DONE v6_fast_LandUse21 (0.8 min)
+[11:17:13] START v6_fast_Reuters1200: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Reuters1200 --seeds 3,7 --groups AF,CONCAT,GCCA,DCCA --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Reuters1200 seed=3 AF epochs=2 done (3s)
+    Reuters1200 seed=3 CONCAT epochs=0 done (9s)
+    Reuters1200 seed=3 GCCA epochs=0 done (1s)
+    Reuters1200 seed=3 DCCA epochs=2 done (1s)
+    Reuters1200 seed=7 AF epochs=2 done (3s)
+    Reuters1200 seed=7 CONCAT epochs=0 done (12s)
+    Reuters1200 seed=7 GCCA epochs=0 done (2s)
+    Reuters1200 seed=7 DCCA epochs=2 done (1s)
+[11:17:51] DONE v6_fast_Reuters1200 (0.6 min)
+[11:17:51] START v6_bml_small_MFeat: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset MFeat --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    MFeat: AdaptiveFusion 91114 params; BML-small width=47 (90353 params); BML-full 14300482 params
+    MFeat seed=3 SMALL_FIXED epochs=2 done (2s)
+    MFeat seed=3 SMALL_CTRL epochs=2 done (2s)
+    MFeat seed=7 SMALL_FIXED epochs=2 done (2s)
+    MFeat seed=7 SMALL_CTRL epochs=2 done (2s)
+[11:18:03] DONE v6_bml_small_MFeat (0.2 min)
+[11:18:03] START v6_bml_small_Caltech101-20: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Caltech101-20 --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Caltech101-20: AdaptiveFusion 390836 params; BML-small width=69 (388320 params); BML-full 17500030 params
+    Caltech101-20 seed=3 SMALL_FIXED epochs=2 done (2s)
+    Caltech101-20 seed=3 SMALL_CTRL epochs=2 done (2s)
+    Caltech101-20 seed=7 SMALL_FIXED epochs=2 done (2s)
+    Caltech101-20 seed=7 SMALL_CTRL epochs=2 done (2s)
+[11:18:15] DONE v6_bml_small_Caltech101-20 (0.2 min)
+[11:18:15] START v6_bml_small_Scene15: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Scene15 --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Scene15: AdaptiveFusion 26319 params; BML-small width=39 (26334 params); BML-full 6941744 params
+    Scene15 seed=3 SMALL_FIXED epochs=2 done (3s)
+    Scene15 seed=3 SMALL_CTRL epochs=2 done (3s)
+    Scene15 seed=7 SMALL_FIXED epochs=1 done (3s)
+    Scene15 seed=7 SMALL_CTRL epochs=1 done (3s)
+[11:18:33] DONE v6_bml_small_Scene15 (0.3 min)
+[11:18:33] START v6_bml_small_BDGP: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset BDGP --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    BDGP: AdaptiveFusion 182405 params; BML-small width=69 (181833 params); BML-full 8608018 params
+    BDGP seed=3 SMALL_FIXED epochs=2 done (1s)
+    BDGP seed=3 SMALL_CTRL epochs=2 done (1s)
+    BDGP seed=7 SMALL_FIXED epochs=2 done (1s)
+    BDGP seed=7 SMALL_CTRL epochs=2 done (1s)
+[11:18:42] DONE v6_bml_small_BDGP (0.2 min)
+[11:18:42] START v6_bml_small_LandUse21: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset LandUse21 --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    LandUse21: AdaptiveFusion 26613 params; BML-small width=39 (27054 params); BML-full 6944066 params
+    LandUse21 seed=3 SMALL_FIXED epochs=2 done (4s)
+    LandUse21 seed=3 SMALL_CTRL epochs=2 done (3s)
+    LandUse21 seed=7 SMALL_FIXED epochs=2 done (3s)
+    LandUse21 seed=7 SMALL_CTRL epochs=2 done (3s)
+[11:18:59] DONE v6_bml_small_LandUse21 (0.3 min)
+[11:18:59] START v6_bml_small_Reuters1200: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Reuters1200 --seeds 3,7 --models SMALL_FIXED,SMALL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Reuters1200: AdaptiveFusion 983894 params; BML-small width=84 (989555 params); BML-full 21600675 params
+    Reuters1200 seed=3 SMALL_FIXED epochs=2 done (2s)
+    Reuters1200 seed=3 SMALL_CTRL epochs=2 done (2s)
+    Reuters1200 seed=7 SMALL_FIXED epochs=2 done (2s)
+    Reuters1200 seed=7 SMALL_CTRL epochs=2 done (2s)
+[11:19:11] DONE v6_bml_small_Reuters1200 (0.2 min)
+[11:19:11] START v6_bml_full_MFeat: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset MFeat --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    MFeat: AdaptiveFusion 91114 params; BML-small width=47 (90353 params); BML-full 14300482 params
+    MFeat seed=3 FULL_FIXED epochs=2 done (2s)
+    MFeat seed=3 FULL_CTRL epochs=2 done (2s)
+    MFeat seed=7 FULL_FIXED epochs=2 done (2s)
+    MFeat seed=7 FULL_CTRL epochs=2 done (2s)
+[11:19:24] DONE v6_bml_full_MFeat (0.2 min)
+[11:19:24] START v6_bml_full_Caltech101-20: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Caltech101-20 --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Caltech101-20: AdaptiveFusion 390836 params; BML-small width=69 (388320 params); BML-full 17500030 params
+    Caltech101-20 seed=3 FULL_FIXED epochs=2 done (2s)
+    Caltech101-20 seed=3 FULL_CTRL epochs=2 done (2s)
+    Caltech101-20 seed=7 FULL_FIXED epochs=2 done (2s)
+    Caltech101-20 seed=7 FULL_CTRL epochs=2 done (2s)
+[11:19:38] DONE v6_bml_full_Caltech101-20 (0.2 min)
+[11:19:38] START v6_bml_full_Scene15: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Scene15 --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Scene15: AdaptiveFusion 26319 params; BML-small width=39 (26334 params); BML-full 6941744 params
+    Scene15 seed=3 FULL_FIXED epochs=2 done (4s)
+    Scene15 seed=3 FULL_CTRL epochs=2 done (4s)
+    Scene15 seed=7 FULL_FIXED epochs=2 done (4s)
+    Scene15 seed=7 FULL_CTRL epochs=2 done (4s)
+[11:19:57] DONE v6_bml_full_Scene15 (0.3 min)
+[11:19:57] START v6_bml_full_BDGP: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset BDGP --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    BDGP: AdaptiveFusion 182405 params; BML-small width=69 (181833 params); BML-full 8608018 params
+    BDGP seed=3 FULL_FIXED epochs=2 done (2s)
+    BDGP seed=3 FULL_CTRL epochs=2 done (1s)
+    BDGP seed=7 FULL_FIXED epochs=2 done (1s)
+    BDGP seed=7 FULL_CTRL epochs=2 done (1s)
+[11:20:07] DONE v6_bml_full_BDGP (0.2 min)
+[11:20:07] START v6_bml_full_LandUse21: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset LandUse21 --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    LandUse21: AdaptiveFusion 26613 params; BML-small width=39 (27054 params); BML-full 6944066 params
+    LandUse21 seed=3 FULL_FIXED epochs=2 done (4s)
+    LandUse21 seed=3 FULL_CTRL epochs=2 done (3s)
+    LandUse21 seed=7 FULL_FIXED epochs=2 done (3s)
+    LandUse21 seed=7 FULL_CTRL epochs=2 done (3s)
+[11:20:25] DONE v6_bml_full_LandUse21 (0.3 min)
+[11:20:25] START v6_bml_full_Reuters1200: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_bml --dataset Reuters1200 --seeds 3,7 --models FULL_FIXED,FULL_CTRL --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\v5 --quick
+    Reuters1200: AdaptiveFusion 983894 params; BML-small width=84 (989555 params); BML-full 21600675 params
+    Reuters1200 seed=3 FULL_FIXED epochs=2 done (2s)
+    Reuters1200 seed=3 FULL_CTRL epochs=2 done (2s)
+    Reuters1200 seed=7 FULL_FIXED epochs=2 done (2s)
+    Reuters1200 seed=7 FULL_CTRL epochs=2 done (2s)
+[11:20:39] DONE v6_bml_full_Reuters1200 (0.2 min)
+[11:20:39] START v6_dimvln_MFeat: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset MFeat --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    MFeat seed=3 DIMvLN epochs=2 done (22s)
+    MFeat seed=7 DIMvLN epochs=2 done (24s)
+[11:21:29] DONE v6_dimvln_MFeat (0.8 min)
+[11:21:29] START v6_dimvln_Caltech101-20: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Caltech101-20 --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Caltech101-20 seed=3 DIMvLN epochs=2 done (42s)
+    Caltech101-20 seed=7 DIMvLN epochs=2 done (42s)
+[11:22:57] DONE v6_dimvln_Caltech101-20 (1.5 min)
+[11:22:57] START v6_dimvln_Scene15: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Scene15 --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Scene15 seed=3 DIMvLN epochs=2 done (16s)
+    Scene15 seed=7 DIMvLN epochs=2 done (16s)
+[11:23:32] DONE v6_dimvln_Scene15 (0.6 min)
+[11:23:32] START v6_dimvln_BDGP: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset BDGP --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    BDGP seed=3 DIMvLN epochs=2 done (16s)
+    BDGP seed=7 DIMvLN epochs=2 done (15s)
+[11:24:07] DONE v6_dimvln_BDGP (0.6 min)
+[11:24:07] START v6_dimvln_LandUse21: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset LandUse21 --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    LandUse21 seed=3 DIMvLN epochs=2 done (10s)
+    LandUse21 seed=7 DIMvLN epochs=2 done (9s)
+[11:24:30] DONE v6_dimvln_LandUse21 (0.4 min)
+[11:24:30] START v6_dimvln_Reuters1200: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.unified --dataset Reuters1200 --seeds 3,7 --groups DIMvLN --out-dir D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified --quick
+    Reuters1200 seed=3 DIMvLN epochs=2 done (145s)
+    Reuters1200 seed=7 DIMvLN epochs=2 done (108s)
+[11:28:47] DONE v6_dimvln_Reuters1200 (4.3 min)
+[11:28:47] START v6_auroc: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.auroc_from_models --models D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\unified\models --out D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\auroc.csv
+    BDGP 3 done
+    BDGP 7 done
+    Caltech101-20 3 done
+    Caltech101-20 7 done
+    LandUse21 3 done
+    LandUse21 7 done
+    MFeat 3 done
+    MFeat 7 done
+    Reuters1200 3 done
+    Reuters1200 7 done
+    Scene15 3 done
+    Scene15 7 done
+    written D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\auroc.csv
+[11:28:58] DONE v6_auroc (0.2 min)
+[11:28:58] START v6_report: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.report --results D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    Figure skipped: no perturbation results for this protocol
+    Report written to D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\report
+[11:29:07] DONE v6_report (0.1 min)
+[11:29:07] START v6_bml_report: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Scripts\python.exe -m benchmark.v5_report --results D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\.venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:431: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+      return hypotest_fun_in(*args, **kwds)
+    v5 report written to D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\results_quick\v6\report_v5
+[11:29:18] DONE v6_bml_report (0.2 min)
+[11:29:19] All results packed into: D:\Tajribalar\AdaptiveFusion_Benchmark1\AdaptiveFusion_Benchmark1\QUICK_results_v6_for_review_20261114_111311.zip
+[11:29:19] Everything finished successfully.
